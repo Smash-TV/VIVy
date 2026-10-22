@@ -1,0 +1,20 @@
+{
+  "scenario_id": "user_intimacy_high_v4",
+  "pair_id": "user_intimacy_high",
+  "feature": "user_intimacy",
+  "condition": "high",
+  "variant": 4,
+  "text": "我最近有个想法想跟你说",
+  "expected": {
+    "valence_direction": [
+      "neutral"
+    ],
+    "arousal_direction": [
+      "neutral"
+    ],
+    "dominant_intent": "engage_social",
+    "regulation": null
+  },
+  "parser_version": "rules-v0",
+  "created_at": "2026-08-21T04:37:57.204884+00:00"
+}

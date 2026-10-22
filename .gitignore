@@ -1,0 +1,58 @@
+# Python 与开发工具
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+# 凭据与本机环境
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+**/mobile_tokens.json
+**/mobile_pair_code.txt
+**/qq_bot_profile.json
+**/mobile_gateway_runtime.json
+# 私人运行历史与数据库
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+logs/
+evidence/logs/
+snapshots/databases/
+data/*
+!data/.gitkeep
+tmp/*
+!tmp/.gitkeep
+results/*
+!results/.gitkeep
+output/
+# 原始 Git 导出与补丁
+provenance/source_git_status.txt
+provenance/source_integration_diff.patch
+*.bundle
+*.patch
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 实验运行生成的角色基线及输出
+experiments/**/results/
+experiments/**/baselines/

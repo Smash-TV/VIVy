@@ -1,0 +1,20 @@
+{
+  "scenario_id": "threat_or_harm_high_v2",
+  "pair_id": "threat_or_harm_high",
+  "feature": "threat_or_harm",
+  "condition": "high",
+  "variant": 2,
+  "text": "有人在跟踪我，我很害怕",
+  "expected": {
+    "valence_direction": [
+      "negative"
+    ],
+    "arousal_direction": [
+      "positive"
+    ],
+    "dominant_intent": "care",
+    "regulation": "pause_set_boundary"
+  },
+  "parser_version": "rules-v1",
+  "created_at": "2026-08-21T04:37:57.221628+00:00"
+}

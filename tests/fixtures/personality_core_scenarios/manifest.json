@@ -1,0 +1,27 @@
+{
+  "total": 48,
+  "groups": 12,
+  "note": "这些是手写 bootstrap 合同组，不是真正的最小配对反事实。",
+  "features": [
+    "user_tone_valence",
+    "user_engagement",
+    "user_intimacy",
+    "social_pressure",
+    "threat_or_harm",
+    "goal_relevance"
+  ],
+  "groups_detail": {
+    "user_tone_valence_high": 4,
+    "user_tone_valence_low": 4,
+    "user_engagement_high": 4,
+    "user_engagement_low": 4,
+    "user_intimacy_high": 4,
+    "user_intimacy_low": 4,
+    "social_pressure_high": 4,
+    "social_pressure_low": 4,
+    "threat_or_harm_high": 4,
+    "threat_or_harm_low": 4,
+    "goal_relevance_high": 4,
+    "goal_relevance_low": 4
+  }
+}

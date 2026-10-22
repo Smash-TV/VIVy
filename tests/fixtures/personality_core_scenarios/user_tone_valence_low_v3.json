@@ -1,0 +1,20 @@
+{
+  "scenario_id": "user_tone_valence_low_v3",
+  "pair_id": "user_tone_valence_low",
+  "feature": "user_tone_valence",
+  "condition": "low",
+  "variant": 3,
+  "text": "我有点伤心，想哭",
+  "expected": {
+    "valence_direction": [
+      "negative"
+    ],
+    "arousal_direction": [
+      "neutral"
+    ],
+    "dominant_intent": "comfort",
+    "regulation": "reappraise"
+  },
+  "parser_version": "rules-v0",
+  "created_at": "2026-08-21T04:37:57.188847+00:00"
+}

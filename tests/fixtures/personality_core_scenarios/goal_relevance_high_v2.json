@@ -1,0 +1,20 @@
+{
+  "scenario_id": "goal_relevance_high_v2",
+  "pair_id": "goal_relevance_high",
+  "feature": "goal_relevance",
+  "condition": "high",
+  "variant": 2,
+  "text": "能不能告诉我你的记录笔是哪里来的",
+  "expected": {
+    "valence_direction": [
+      "neutral"
+    ],
+    "arousal_direction": [
+      "positive"
+    ],
+    "dominant_intent": "assist",
+    "regulation": null
+  },
+  "parser_version": "rules-v0",
+  "created_at": "2026-08-21T04:37:57.232531+00:00"
+}

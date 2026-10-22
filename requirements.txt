@@ -1,0 +1,1 @@
+# 核心仅依赖 Python 标准库；与 pyproject.toml 的 dependencies = [] 一致。

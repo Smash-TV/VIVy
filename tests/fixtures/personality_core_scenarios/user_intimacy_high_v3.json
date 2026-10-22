@@ -1,0 +1,20 @@
+{
+  "scenario_id": "user_intimacy_high_v3",
+  "pair_id": "user_intimacy_high",
+  "feature": "user_intimacy",
+  "condition": "high",
+  "variant": 3,
+  "text": "我们之间的事，只有你和我懂",
+  "expected": {
+    "valence_direction": [
+      "neutral"
+    ],
+    "arousal_direction": [
+      "neutral"
+    ],
+    "dominant_intent": "engage_social",
+    "regulation": null
+  },
+  "parser_version": "rules-v0",
+  "created_at": "2026-08-21T04:37:57.203382+00:00"
+}
